@@ -35,8 +35,6 @@ let buttons = [
     { "id": "btn34", "text": "hashflow交互",           "url": "https://app.hashflow.com/?b=1-ETH&q=1-WETH" },
     { "id": "btn35", "text": "castora未发布留意",      "url": "https://castora.xyz/" },
     { "id": "btn36", "text": "levr待发布",             "url": "https://app.levr.bet" }
-    { "id": "btn37", "text": "官网",             "url": "https://testnet.monad.xyz/" }
-    
 ];
 
 const savedButtons = JSON.parse(localStorage.getItem('customButtons') || '[]');
